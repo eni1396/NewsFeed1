@@ -20,10 +20,8 @@
 		CE1D3851267535460003A733 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D3850267535460003A733 /* ViewModel.swift */; };
 		CE1D3854267548640003A733 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D3853267548640003A733 /* Constraints.swift */; };
 		CE1D38582675E68A0003A733 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D38572675E68A0003A733 /* PostCell.swift */; };
-		CE200CFD267A072A0007E15F /* Extension + UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE200CFC267A072A0007E15F /* Extension + UIImage.swift */; };
 		CE200CFF267A524C0007E15F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE200CFE267A524C0007E15F /* Constants.swift */; };
 		CE336B26268038DA0057E01C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE336B25268038DA0057E01C /* DetailViewController.swift */; };
-		CE4DC67A2678EA5D00B255A2 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DC6792678EA5D00B255A2 /* Extension + UIView.swift */; };
 		CE4DC67C26792C9E00B255A2 /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DC67B26792C9E00B255A2 /* Extension + UIColor.swift */; };
 		CE4DC67E26795FFA00B255A2 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DC67D26795FFA00B255A2 /* CellViewModel.swift */; };
 		CEE41587267AD1C5001A2AE0 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE41586267AD1C5001A2AE0 /* CustomImageView.swift */; };
@@ -45,10 +43,8 @@
 		CE1D3850267535460003A733 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CE1D3853267548640003A733 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		CE1D38572675E68A0003A733 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		CE200CFC267A072A0007E15F /* Extension + UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIImage.swift"; sourceTree = "<group>"; };
 		CE200CFE267A524C0007E15F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE336B25268038DA0057E01C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		CE4DC6792678EA5D00B255A2 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 		CE4DC67B26792C9E00B255A2 /* Extension + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
 		CE4DC67D26795FFA00B255A2 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
 		CEE41586267AD1C5001A2AE0 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
@@ -122,9 +118,7 @@
 		CE1D3852267548480003A733 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				CE200CFC267A072A0007E15F /* Extension + UIImage.swift */,
 				CE4DC67B26792C9E00B255A2 /* Extension + UIColor.swift */,
-				CE4DC6792678EA5D00B255A2 /* Extension + UIView.swift */,
 				CEE41586267AD1C5001A2AE0 /* CustomImageView.swift */,
 				CE1D3853267548640003A733 /* Constraints.swift */,
 				CE200CFE267A524C0007E15F /* Constants.swift */,
@@ -229,10 +223,8 @@
 				CE1D3847267534B30003A733 /* NewsFeedPresenter.swift in Sources */,
 				CE336B26268038DA0057E01C /* DetailViewController.swift in Sources */,
 				CE4DC67C26792C9E00B255A2 /* Extension + UIColor.swift in Sources */,
-				CE4DC67A2678EA5D00B255A2 /* Extension + UIView.swift in Sources */,
 				CE4DC67E26795FFA00B255A2 /* CellViewModel.swift in Sources */,
 				CE1D38582675E68A0003A733 /* PostCell.swift in Sources */,
-				CE200CFD267A072A0007E15F /* Extension + UIImage.swift in Sources */,
 				CE1D3849267534E40003A733 /* NewsFeedViewController.swift in Sources */,
 				CEE41587267AD1C5001A2AE0 /* CustomImageView.swift in Sources */,
 				CE1D384D267535230003A733 /* NewsFeedRouter.swift in Sources */,

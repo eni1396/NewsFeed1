@@ -15,7 +15,7 @@ protocol NewsFeedViewProtocol: AnyObject {
 }
 
 final class NewsFeedViewController: UIViewController, NewsFeedViewProtocol {
-    var isReady = false
+    var isReadyToLoad = false
     private lazy var popularitySortButton: UIBarButtonItem = {
         let button = UIBarButtonItem()
         button.style = .plain
@@ -76,7 +76,7 @@ final class NewsFeedViewController: UIViewController, NewsFeedViewProtocol {
     }
     
     func receiveData() {
-        isReady = true
+        isReadyToLoad = true
         DispatchQueue.main.async {
             self.table.reloadData()
         }
@@ -171,7 +171,7 @@ extension NewsFeedViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let positionForPagination = scrollView.contentOffset.y
         if scrollView.contentSize.height - positionForPagination - scrollView.frame.height < 100 {
-            isReady = true
+            isReadyToLoad = true
             table.tableFooterView = createSpinnerView()
             guard let cursor = presenter.currentCursor else {
                 self.presenter.isPreloading = false
@@ -179,9 +179,9 @@ extension NewsFeedViewController: UIScrollViewDelegate {
             }
             
             DispatchQueue.global(qos: .userInteractive).async {
-                if self.isReady {
+                if self.isReadyToLoad {
                     self.presenter.loadMoreData(cursor: cursor)
-                    self.isReady = false
+                    self.isReadyToLoad = false
                 }
             }
             if self.presenter.isPreloading {
