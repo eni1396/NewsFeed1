@@ -21,7 +21,6 @@ final class NewsFeedInteractor: NewsFeedInteractorProtocol {
     
     weak var presenter: NewsFeedPresenterProtocol?
     private let apiManager: ApiManager
-    private var isFirstTime = false
     
     
     init(apiManager: ApiManager = ApiManager()) {
